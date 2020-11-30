@@ -1,0 +1,50 @@
+{
+  "name": "online-marketplace",
+  "version": "1.0.0",
+  "description": "It Is an online marketplace for users to hire items from each other.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatraiadarsh/online-marketplace.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "Adarsha Bhattarai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vatraiadarsh/online-marketplace/issues"
+  },
+  "homepage": "https://github.com/vatraiadarsh/online-marketplace#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^5.0.0",
+    "helmet": "^4.2.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "pino": "^6.7.0",
+    "pino-http": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "pino-pretty": "^4.3.0"
+  }
+}
